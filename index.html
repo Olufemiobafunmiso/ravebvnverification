@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Rave Bvn Verification</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme-serpent.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+        
+    </head>
+    <body data-smooth-scroll-offset="77">
+        <div class="nav-container">
+        
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
+                            </div>
+                            <div class="col-9 col-md-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/FLW-logo.svg"> <img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li class="dropdown"> <span class="dropdown__trigger">products&nbsp;</span>
+                                            
+                                        </li>
+                                        <li class="dropdown"> <span class="dropdown__trigger">developers</span>
+                                            
+                                        </li>
+                                        <li class="dropdown"> <span class="dropdown__trigger">company</span>
+                                            
+                                                       
+                                           
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                    <a class="btn btn--sm type--uppercase btn--primary" href="#purchase-template"> <span class="btn__text">
+                                    Sign in</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        
+        <div class="bodytext">
+            <section>
+                <img src="img/rave.png" alt="" class="rave">
+                <div class="login">
+                    <form class="form">
+                        <h1>Welcome</h1> <br>
+                        <h2>(BVN Demo page)</h2>
+                        <p>Kindly Enter your BVN number for verification</p>
+            
+                        <input type="number" id="bvnumber" placeholder="e.g 31222223432" required="required" class="loginform">
+                        <button type="button" onclick="verify()">Submit</button>
+                    </form>
+                </div>
+            
+                <div id="status"></div>
+                <div id="firstname"></div>
+                <div id="lastname"></div>
+    </section>
+    </div> 
+        <div class="main-container">
+            <footer class="space--sm footer-2 bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 col-xs-6">
+                            <h6 class="type--uppercase">Company</h6>
+                            <ul class="list--hover">
+                                <li><a href="#">About Company</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Locations</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Work With Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-6">
+                            <h6 class="type--uppercase">Developers</h6>
+                            <ul class="list--hover">
+                                <li><a href="#">Developer Center</a></li>
+                                <li><a href="#">API Reference</a></li>
+                                <li><a href="#">Downloads</a></li>
+                                <li><a href="#">Tools</a></li>
+                                <li><a href="#">Developer Blog</a></li>
+                                <li><a href="#">Developer Forums</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-6">
+                            <h6 class="type--uppercase">Support</h6>
+                            <ul class="list--hover">
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Live Chat</a></li>
+                                <li><a href="#">Downloads</a></li>
+                                <li><a href="#">Press Kit</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-6">
+                            <h6 class="type--uppercase">Locations</h6>
+                            <ul class="list--hover">
+                                <li>
+                                    <a href="#"> </a>
+                                </li>
+                                <li><a href="#">Lagos</a></li>
+                                <li>
+                                    <a href="#"> </a>
+                                </li>
+                                <li><a href="#">8 Providence Street Lekki Phase 1&nbsp;</a></li>
+                                <li><a href="#">San Francisco</a></li>
+                                <li><a href="#">1323 Columbus Avenue San Francisco, CA 94133 </a></li>
+                                <li>
+                                    <a href="#"> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"> <span class="type--fine-print">© <span class="update-year">2019</span>&nbsp;olufemi obafunmiso</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
+                        <div class="col-sm-6 text-right text-left-xs">
+                            <ul class="social-list list-inline list--hover">
+                                <li><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li>
+                                <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+                                <li><a href="#"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
+                                <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
